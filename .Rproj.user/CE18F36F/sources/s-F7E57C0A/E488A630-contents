@@ -1,0 +1,8 @@
+## code to prepare `trainandtest` dataset goes here
+path2files <- paste0(getwd(),"/inst/extdata/boehm_train.csv")
+trainfile <- read.table(path2files, sep=",",header=TRUE, stringsAsFactors=FALSE, dec = ".") #read data
+path2files <- paste0(getwd(),"/inst/extdata/boehm_test.csv")
+testfile <- read.table(path2files, sep=",",header=TRUE, stringsAsFactors=FALSE, dec = ".") #read data
+
+usethis::use_data(trainfile, overwrite = TRUE)
+usethis::use_data(testfile, overwrite = TRUE)

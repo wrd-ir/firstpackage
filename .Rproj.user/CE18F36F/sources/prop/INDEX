@@ -1,2 +1,8 @@
+~%2Ffirstpackage%2F.Rbuildignore="FAC35409"
+~%2Ffirstpackage%2FDESCRIPTION="D2F90237"
 ~%2Ffirstpackage%2FNAMESPACE="ABF85912"
+~%2Ffirstpackage%2FR%2Fdata.R="8F0677B0"
 ~%2Ffirstpackage%2FR%2Fhello.R="DE7D661A"
+~%2Ffirstpackage%2Fdata-raw%2Ftrainandtest.R="0FBB2281"
+~%2Ffirstpackage%2Finst%2Fextdata%2Fboehm_test.csv="A93ECCB3"
+~%2Ffirstpackage%2Finst%2Fextdata%2Fboehm_train.csv="2E57F7FF"
